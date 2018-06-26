@@ -9,11 +9,11 @@ msgstr ""
 msgid "vlmcsd config"
 msgstr "vlmcsd 设置"
 
-msgid "Vlmcsd is running."
-msgstr "Vlmcsd 运行中。"
+msgid "vlmcsd is running."
+msgstr "vlmcsd 运行中..."
 
-msgid "Vlmcsd is not running."
-msgstr "Vlmcsd 未运行."
+msgid "vlmcsd is not running."
+msgstr "vlmcsd 未运行."
 
 msgid "Enable"
 msgstr "启用"

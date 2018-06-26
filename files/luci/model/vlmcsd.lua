@@ -2,9 +2,9 @@ local m, s
 
 local running=(luci.sys.call("pidof vlmcsd > /dev/null") == 0)
 if running then	
-	m = Map("vlmcsd", translate("vlmcsd config"), translate("Vlmcsd is running."))
+	m = Map("vlmcsd", translate("vlmcsd config"), translate("vlmcsd is running."))
 else
-	m = Map("vlmcsd", translate("vlmcsd config"), translate("Vlmcsd is not running."))
+	m = Map("vlmcsd", translate("vlmcsd config"), translate("vlmcsd is not running."))
 end
 
 s = m:section(TypedSection, "vlmcsd", "")
